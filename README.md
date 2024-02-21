@@ -1,5 +1,4 @@
-# Namaste React 🚀
-
+# Lerning React 🚀
 
 # Parcel
 - Dev Build

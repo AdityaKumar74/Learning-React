@@ -1,7 +1,7 @@
 {
-  "name": "namaste-react",
+  "name": "learning-react",
   "version": "1.0.0",
-  "description": "Learing react form Namaste react",
+  "description": "Learing react from scratch",
   "scripts": {
     "test": "jest"
   },
