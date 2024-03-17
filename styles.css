@@ -30,13 +30,13 @@
 .res-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 15px;
 }
 .res-card {
   padding: 5px;
   width: 200px;
-  height: 300px;
+  height: auto;
 }
 .res-card h3 {
   margin-top: 10px;
