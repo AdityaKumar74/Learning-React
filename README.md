@@ -18,3 +18,21 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Diffrent dev and prod bundles
+
+# Two types of Export/Import
+
+- Default Export/Import
+
+export default component;
+import Component from "path";
+
+- Named Export/Import
+
+export const Components;
+import {Components} from "path";
+
+# React Hooks
+ (Normal JS utility function)
+
+ - UseState() - Superpowerful state variable in react
+ - UseEffect()
