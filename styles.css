@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -26,20 +26,20 @@
   padding: 0 20px;
 }
 
-.nav-items>ul {
+.nav-items > ul {
   display: flex;
   font-size: 20px;
   font-weight: 500;
   list-style-type: none;
 }
 
-.nav-items>ul>li {
+.nav-items > ul > li {
   margin: 10px;
   padding: 10px;
   cursor: pointer;
 }
 
-.nav-items>ul>li:hover {
+.nav-items > ul > li:hover {
   color: #16ba52;
 }
 
@@ -107,4 +107,17 @@
 .price-sign {
   color: #16ba52;
   font-weight: 700;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 50px;
+}
+.shimmer-cards {
+  background-color: #f0f0f0;
+  width: 237px;
+  height: 391px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
