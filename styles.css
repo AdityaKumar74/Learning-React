@@ -20,6 +20,7 @@
 
 .logo {
   width: 100px;
+  height: 95px;
 }
 
 .nav-items {
@@ -67,10 +68,31 @@
   filter: drop-shadow(rgba(0, 0, 0, 0.1) 2px 2px 15px);
 }
 
-.search {
-  padding: 10px;
+.nav-items > ul > li.login:hover {
+  background-color: #16ba52;
+  color: #fff;
 }
 
+.search {
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px 3px;
+  margin-right: 6px;
+}
+.search button {
+  outline: none;
+  border: navajowhite;
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .res-logo {
   width: 100%;
   height: 200px;
@@ -81,6 +103,9 @@
 .filter {
   margin: 10px;
   margin-left: 5px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .filter-btn {
@@ -104,10 +129,7 @@
   margin-bottom: 0;
   text-transform: uppercase;
 }
-.price-sign {
-  color: #16ba52;
-  font-weight: 700;
-}
+
 .shimmer-container {
   display: flex;
   flex-wrap: wrap;
@@ -120,4 +142,10 @@
   height: 391px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+.nav-items > ul > li.login {
+  background: #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 22px;
 }
